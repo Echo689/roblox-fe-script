@@ -5,7 +5,7 @@ repeat wait() until game:IsLoaded() and game:GetService("CoreGui") and game:GetS
 -- Constraints: -----------------------|
 local ver = "1.1.2c"
 local nextupd = "20/07/2020"
-local cordCode = "social.strylix.net (paste in browser)"
+local cordCode = "yea we died so lol we done fuck u"
 local changeLog = {
 	"Need help? Join our discord! "..cordCode;
 }
