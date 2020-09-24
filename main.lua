@@ -157,7 +157,7 @@ if not writefile then
 	repeat wait() until RunDude == true
 end
 
-loadstring(game:HttpGet("http://fe.strylix.net/main/Versions/versions.lua",true))()
+loadstring(game:HttpGet("https://github.com/Echo689/some-roblox-thing/blob/master/versions.lua",true))()
 if Current.Version ~= ver then
 	Stand("Strylix FE is not up to par!","Strylix FE cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
 	repeat wait() until RunDude == true
@@ -195,8 +195,8 @@ local Devs = {
 }
 
 DevCords = {
-	"🎤🐍";
-    "🎤🐒";
+	"pornstar1";
+    "pornstar2";
 	"";
 }
 
