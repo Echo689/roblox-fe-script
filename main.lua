@@ -186,7 +186,7 @@ cmdm = Mouses
 local Devs = {
 	["heeheehehehehehe"] = "Owner",
 	["wskyn"] = "Admin",
-	["tanomet"] = "Co-Owner",
+	["placeholder"] = "Co-Owner",
 	["placeholder"] = "Owner",
 	["placeholder"] = "Owner",
 	["placeholder"] = "Dev",
@@ -195,8 +195,8 @@ local Devs = {
 }
 
 DevCords = {
-	"pornstar1";
-    "pornstar2";
+	"placeholder";
+    "placeholder";
 	"";
 }
 
