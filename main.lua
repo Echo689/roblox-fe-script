@@ -16518,7 +16518,7 @@ end)
 -- Print Function: --------------------|
 if AntiCheat.PrintingOff == false then
 	local StarterGui = game:GetService("StarterGui")
-	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "Welcome to Strylix-FE, "..cmdlp.Name..".";Color = Color3.fromRGB(50, 50, 50);Font = Enum.Font.SourceSansBold;TextSize = 25})
+	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "Welcome to shit, "..cmdlp.Name..".";Color = Color3.fromRGB(50, 50, 50);Font = Enum.Font.SourceSansBold;TextSize = 25})
 	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "Press U for output and F9 for more info!";Color = Color3.fromRGB(100, 100, 100);Font = Enum.Font.SourceSansBold;TextSize = 20})
 	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "To use chat commands use the prefix '"..prefix.."'";Color = Color3.fromRGB(100, 100, 100);Font = Enum.Font.SourceSansBold;TextSize = 20})
 end
