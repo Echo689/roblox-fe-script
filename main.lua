@@ -7,7 +7,7 @@ local ver = "1.1.2c"
 local nextupd = "20/07/2020"
 local cordCode = "point withdrawn, we stopped."
 local changeLog = {
-	"Need help? Join our discord! "..cordCode;
+	"si si lo soy y funciono jajaja"..cordCode;
 }
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui").RobloxGui, [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
@@ -147,24 +147,24 @@ function Stand(Text1,Text2,Text3,Text4,Text5,Text6,Btn)
 	Free.TextSize = 17.000
 end
 
-LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading Strylix-FE.","Thanking pigeon#1818.","Thanking hz#4777.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
+LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading script.","Thanking pigeon#1818.","Thanking hz#4777.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
 
 local cmdp = game:GetService("Players")
 local cmdlp = cmdp.LocalPlayer
 
 if not writefile then
-	Stand("Your exploit does not support writefile!","Strylix-FE cannot run.","Executors we support;","Paid: Synapse X, Sentinel, ProtoSmasher, SirHurt (buggy)","Free: KRNL (buggy)","Run Anyway",true)
+	Stand("Your exploit does not support writefile!","script cannot run.","Executors we support;","Paid: Synapse X, Sentinel, ProtoSmasher, SirHurt (buggy)","Free: KRNL (buggy)","Run Anyway",true)
 	repeat wait() until RunDude == true
 end
 
 loadstring(game:HttpGet("https://github.com/Echo689/some-roblox-thing/blob/master/versions.lua",true))()
 if Current.Version ~= ver then
-	Stand("Strylix FE is not up to par!","Strylix FE cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
+	Stand("script is not up to par!","script cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
 	repeat wait() until RunDude == true
 end
 
 if isfile then
-	if not isfile("Strylix-FE.lua") then
+	if not isfile("main.lua") then
 	    Stand("Looks like your new here.","To view commands use .commands","You can use different stuff like .hotkeys and .plugins for add-ons.","","Join the discord if you need help/support.","Ok Cool!",true)    
 	    repeat wait() until RunDude == true
 	end
@@ -187,11 +187,11 @@ local Devs = {
 	["heeheehehehehehe"] = "Owner",
 	["wskyn"] = "Admin",
 	["placeholder"] = "Co-Owner",
-	["placeholder"] = "Owner",
-	["placeholder"] = "Owner",
-	["placeholder"] = "Dev",
-	["placeholder"] = "Owner",
-	["placeholder"] = "Dev" 
+	["placeholder"] = "placeholder",
+	["placeholder"] = "placeholder",
+	["placeholder"] = "placeholder",
+	["placeholder"] = "placeholder",
+	["placeholder"] = "placeholder" 
 }
 
 DevCords = {
@@ -210,8 +210,8 @@ local Donors = {
 -- Writefile: -------------------------|
 
 if isfolder and makefolder and isfile and writefile then
-	if not isfolder("Strylix-FE Plugins") then makefolder("Strylix-FE Plugins") end
-	if not isfile("Strylix-FE Plugins/template.lua") then writefile("Strylix-FE Plugins/template.lua","print('test')") end
+	if not isfolder("script Plugins") then makefolder("script Plugins") end
+	if not isfile("script Plugins/template.lua") then writefile("script Plugins/template.lua","print('test')") end
 end
 
 function writefileExploit()
