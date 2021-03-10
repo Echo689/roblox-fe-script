@@ -1,3 +1,1 @@
-# roblox-fe-script
-fucking hot
-# loadstring(game:HttpGet("https://raw.githubusercontent.com/SIHHHHHHHHHHHH/roblox-fe-script/master/main.lua", true))()
+# <span style="color: #808080;">**_Loadstring:_**</span> loadstring(game:HttpGet("[https://raw.githubusercontent.com/SIHHHHHHHHHHHH/roblox-fe-script/master/main.lua](https://raw.githubusercontent.com/SIHHHHHHHHHHHH/roblox-fe-script/master/main.lua)", true))()
