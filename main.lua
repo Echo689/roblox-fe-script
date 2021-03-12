@@ -4,10 +4,10 @@ if KRNL_LOADED then getgenv().sethiddenproperty = nil end
 repeat wait() until game:IsLoaded() and game:GetService("CoreGui") and game:GetService("Players").LocalPlayer and game:GetService("Players").LocalPlayer.PlayerGui
 -- Constraints: -----------------------|
 local ver = "1.1.2c"
-local nextupd = "20/07/2020"
+local nextupd = "3/12/2021"
 local cordCode = "point withdrawn, we stopped."
 local changeLog = {
-	"si si lo soy y funciono jajaja"..cordCode;
+	"well..."..cordCode;
 }
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui").RobloxGui, [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
@@ -147,7 +147,7 @@ function Stand(Text1,Text2,Text3,Text4,Text5,Text6,Btn)
 	Free.TextSize = 17.000
 end
 
-LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading script.","Thanking pigeon#1818.","Thanking hz#4777.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
+LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading script.","Jumpin' around.","ok well I ran out of things to put here.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
 
 local cmdp = game:GetService("Players")
 local cmdlp = cmdp.LocalPlayer
@@ -157,7 +157,7 @@ if not writefile then
 	repeat wait() until RunDude == true
 end
 
-loadstring(game:HttpGet("https://github.com/Echo689/some-roblox-thing/blob/master/versions.lua",true))()
+loadstring(game:HttpGet("https://github.com/SIHHHHHHHHHHHH/1/blob/drlft/versions.lua",true))()
 if Current.Version ~= ver then
 	Stand("script is not up to par!","script cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
 	repeat wait() until RunDude == true
@@ -244,7 +244,7 @@ defaultsettings = {
 	hotkeyesp = '';
 	hotkeyaimbot = '';
 	prefix = '.';
-	prompt = 'Strylix-FE >';
+	prompt = 'halara >';
 	enterCMD = {};
 	gotoPos = 0;
 	gotoPosSide = 0;
@@ -283,9 +283,9 @@ defaults = game:GetService("HttpService"):JSONEncode(defaultsettings)
 
 function saves()
 	if writefileExploit() then
-		if pcall(function() readfile("Strylix-FE.lua") end) then
-			if readfile("Strylix-FE.lua") ~= nil then
-				local json = game:GetService("HttpService"):JSONDecode(readfile("Strylix-FE.lua"))
+		if pcall(function() readfile("main.lua") end) then
+			if readfile("main.lua") ~= nil then
+				local json = game:GetService("HttpService"):JSONDecode(readfile("main.lua"))
 				if json.text2 ~= nil then text2 = json.text2 else text2 = {} end
 				if json.hotkeyopen ~= nil then hotkeyopen = json.hotkeyopen else hotkeyopen = 'q' end
 				if json.hotkeyopx ~= nil then hotkeyopx = json.hotkeyopx else hotkeyopx = 'u' end
@@ -329,14 +329,14 @@ function saves()
 				if json.ifKickedAuto ~= nil then ifKickedAuto = json.ifKickedAuto else ifKickedAuto = false end
 				if json.whyIs ~= nil then whyIs = json.whyIs else whyIs = 0 end
 			else
-				writefileCooldown("Strylix-FE.lua", defaults)
+				writefileCooldown("main.lua", defaults)
 				wait()
 				saves()
 			end
 		else
-			writefileCooldown("Strylix-FE.lua", defaults)
+			writefileCooldown("main.lua", defaults)
 			wait()
-			if pcall(function() readfile("Strylix-FE.lua") end) then
+			if pcall(function() readfile("main.lua") end) then
 				saves()
 			else
 				text2 = false
@@ -477,7 +477,7 @@ function updatesaves()
 		ifKickedAuto = ifKickedAuto;
 		whyIs = whyIs;
 		}
-		writefileCooldown("Strylix-FE.lua", game:GetService("HttpService"):JSONEncode(update))
+		writefileCooldown("main.lua", game:GetService("HttpService"):JSONEncode(update))
 	end
 end
 
@@ -565,7 +565,7 @@ AntiCheat = {
 	Custom1 = false;
 }
 
--- Known Anti Strylix-FE and unpatches:
+-- Known Anti Halara and unpatches:
 if game.PlaceId == 1499872953 then
 	AntiCheat.ScriptDetectOff = true
 	AntiCheat.PrintingOff = true
@@ -668,7 +668,7 @@ if AntiCheat.RemoveScripts then
 			v:Destroy()
 		end
 	end
-	Stand("Strylix-FE has to delete local scripts!","Your game may not work.","Explanation;","This game has an anticheat and our way of solving it is removing scripts.","","Run Anyway",true)
+	Stand("Halara has to delete local scripts!","Your game may not work.","Explanation;","This game has an anticheat and our way of solving it is removing scripts.","","Run Anyway",true)
 	repeat wait() until RunDude == true
 end
 
@@ -932,7 +932,7 @@ logstitle.BorderColor3 = Color3.new(1, 1, 1)
 logstitle.Position = UDim2.new(-1.1920929e-07, 0, 0, 0)
 logstitle.Size = UDim2.new(0, 300, 0, 29)
 logstitle.Font = Enum.Font.GothamBlack
-logstitle.Text = "Strylix-FE LOGS VIEWER"
+logstitle.Text = "Halara LOGS VIEWER"
 logstitle.TextColor3 = Color3.new(1, 1, 1)
 logstitle.TextSize = 14
 
@@ -983,7 +983,7 @@ adtitle.BorderColor3 = Color3.new(1, 1, 1)
 adtitle.Position = UDim2.new(-1.1920929e-07, 0, 0, 0)
 adtitle.Size = UDim2.new(0, 300, 0, 29)
 adtitle.Font = Enum.Font.GothamBlack
-adtitle.Text = "Strylix-FE ADMIN DETECTOR"
+adtitle.Text = "Halara ADMIN DETECTOR"
 adtitle.TextColor3 = Color3.new(1, 1, 1)
 adtitle.TextSize = 14
  
@@ -1012,7 +1012,7 @@ cmdititle.BorderColor3 = Color3.new(1, 1, 1)
 cmdititle.Position = UDim2.new(-1.1920929e-07, 0, 0, 0)
 cmdititle.Size = UDim2.new(0, 300, 0, 29)
 cmdititle.Font = Enum.Font.GothamBlack
-cmdititle.Text = "Strylix-FE CMDS VIEWER"
+cmdititle.Text = "Halara CMDS VIEWER"
 cmdititle.TextColor3 = Color3.new(1, 1, 1)
 cmdititle.TextSize = 14
  
@@ -1034,7 +1034,7 @@ cmdstitle.BorderColor3 = Color3.new(1, 1, 1)
 cmdstitle.Position = UDim2.new(-1.1920929e-07, 0, 0, 0)
 cmdstitle.Size = UDim2.new(0, 300, 0, 29)
 cmdstitle.Font = Enum.Font.GothamBlack
-cmdstitle.Text = "Strylix-FE CMD LIST"
+cmdstitle.Text = "Halara CMD LIST"
 cmdstitle.TextColor3 = Color3.new(1, 1, 1)
 cmdstitle.TextSize = 14
  
@@ -1056,7 +1056,7 @@ configtitle.BorderColor3 = Color3.new(1, 1, 1)
 configtitle.Position = UDim2.new(-1.1920929e-07, 0, 0, 0)
 configtitle.Size = UDim2.new(0, 300, 0, 29)
 configtitle.Font = Enum.Font.GothamBlack
-configtitle.Text = "Strylix-FE CONFIG"
+configtitle.Text = "Halara CONFIG"
 configtitle.TextColor3 = Color3.new(1, 1, 1)
 configtitle.TextSize = 14
  
@@ -1121,7 +1121,7 @@ profile.BorderSizePixel = 0
 profile.Position = UDim2.new(0.0233333334, 0, 0.0877597779, 0)
 profile.Size = UDim2.new(0, 286, 0, 388)
 profile.Font = Enum.Font.GothamBlack
-profile.Text = "The Strylix-FE CMD LIST is currently under construction please navigate to the .LUA file for the pastebin containing them."
+profile.Text = "The Halara CMD LIST is currently under construction please navigate to the .LUA file for the pastebin containing them."
 profile.TextColor3 = Color3.new(1, 1, 1)
 profile.TextScaled = true
 profile.TextSize = 14
@@ -1157,7 +1157,7 @@ gametitle.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
 gametitle.BorderColor3 = Color3.new(1, 1, 1)
 gametitle.Size = UDim2.new(0, 300, 0, 29)
 gametitle.Font = Enum.Font.GothamBlack
-gametitle.Text = "Strylix-FE GAME VIEWER"
+gametitle.Text = "Halara GAME VIEWER"
 gametitle.TextColor3 = Color3.new(1, 1, 1)
 gametitle.TextSize = 14
  
@@ -1330,7 +1330,7 @@ avatartitle.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
 avatartitle.BorderColor3 = Color3.new(1, 1, 1)
 avatartitle.Size = UDim2.new(0, 300, 0, 29)
 avatartitle.Font = Enum.Font.GothamBlack
-avatartitle.Text = "Strylix-FE PROFILE VIEWER"
+avatartitle.Text = "Halara PROFILE VIEWER"
 avatartitle.TextColor3 = Color3.new(1, 1, 1)
 avatartitle.TextSize = 14
  
@@ -3286,7 +3286,7 @@ table.insert(CMDN, {N = "freecamloadpos", A = {"fcloadpos"}, CMD = "542,freecaml
 table.insert(CMDN, {N = "rejoinrefresh", A = {"rjre"}, CMD = "543,rejoinrefresh/rjre,,Rejoins and places you back at the spot you were at."})
 table.insert(CMDN, {N = "forceplay", A = {"fp"}, CMD = "544,forceplay/fp,(plr),Loop plays plrs audio to stop muting."})
 table.insert(CMDN, {N = "unforceplay", A = {"unfp"}, CMD = "545,unforceplay/unfp,(plr),()."})
-table.insert(CMDN, {N = "migratesaves", A = {"msaves"}, CMD = "546,migratesaves/msaves,(file),Migrates save files/backups to Strylix-FE.lua."})
+table.insert(CMDN, {N = "migratesaves", A = {"msaves"}, CMD = "546,migratesaves/msaves,(file),Migrates save files/backups to main.lua."})
 table.insert(CMDN, {N = "resetguipos", A = {"rguipos"}, CMD = "547,resetguipos/rguipos,,Resets GUI position."})
 table.insert(CMDN, {N = "properties", A = {"props"}, CMD = "548,properties/props,(class),Lists all properties of class in Roblox using an API."})
 table.insert(CMDN, {N = "classes", A = {""}, CMD = "549,classes,,Lists all classes in Roblox using an API."})
@@ -7529,7 +7529,7 @@ end
 
 function useCommand.reload()
 	opx("-","Reloading Strylix FE...")
-	loadstring(game:HttpGet("http://fe.strylix.net/main/main.lua", true))()
+	loadstring(game:HttpGet("https://github.com/SIHHHHHHHHHHHH/1/blob/drlft/main.lua", true))()
 end
 
 function useCommand.console()
