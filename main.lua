@@ -1,6 +1,4 @@
-# 
-
-
+-- This is not working anymore I think so HAHA LOL
 -- Compatibility: ---------------------|
 if KRNL_LOADED then getgenv().sethiddenproperty = nil end
 ---------------------------------------|
